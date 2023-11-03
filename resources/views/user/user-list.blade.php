@@ -20,7 +20,7 @@
     <div class="container-fluid mt-3">
         <div class="bg-danger">
         <button id="export-button" class="float-end btn btn-info mt-1">Export Table Data</button>
-            <a href="{{url('user')}}" class="btn btn-success float-start mt-1 mx-2"> Add user</a>
+            <a href="{{url('/')}}" class="btn btn-success float-start mt-1 mx-2"> Add user</a>
             <a href="{{url('get-task')}}" class="btn btn-primary float-end mt-1 mx-2">task user list</a>
            
 
