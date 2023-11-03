@@ -60,7 +60,7 @@ class TaskController extends Controller
   // dd($request);
   $data = $request->all();
 
-$update = \DB::table('tasks') ->where('id', $data['id']) ->limit(1) ->update( [ 'username' => $data['username'], 'task_detail' => $data['task_detail'], 'task_type' => $data['task_type'],  ]); 
+$update = \DB::table('tasks') ->where('id', $data['id'])->update( [ 'username' => $data['username'], 'task_detail' => $data['task_detail'], 'task_type' => $data['task_type'],  ]); 
 
 return redirect('get-task');
 
